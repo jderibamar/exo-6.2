@@ -1,0 +1,472 @@
+=========================
+
+Changelog Platform 6.2.0
+
+=========================
+
+Changelogs of previous releases are available at https://community.exoplatform.com/portal/g/:spaces:platform_4/exo_platform/notes/436
+
+
+
+eXo ECMS 6.2.0
+
+*************************
+
+** Bug  
+
+* Fix the download issue of a file inserted as a content link into a web content and containing a space in its name
+
+* Fix the issue of updating permissions on a shared file
+
+* Fix the unavailability issue of a document's preview in the activity stream 
+
+* Fix default pptx document language when created in Drives application
+
+* Fix Suggestions display issue in upload status window when uploading an existing doc with % char in its name
+
+* Fix the issue of the application of custom css in Terms Chart file
+
+* Fix displaying documents in Spanshot page
+
+** Improvements
+
+* Create a "Quarantine" folder for documents when the feature is enabled
+
+* Create a new group platform/dlp and move the quarantine page navigation to this group
+
+
+eXo Social 6.2.0
+
+*************************
+
+** Bug
+
+* Fix redirection issue when clicking on a renamed space's logo on chat
+
+* Fix the invitation cancellation issue when made more than once
+
+* Fix the display of space tiptip
+
+* Fix space members cards issues in the 3 dots and information icon
+
+* Fix error appearance issue when editing a post with a link
+
+** Improvements
+
+* Add a space settings to allow the space manager to activate or deactivate the chat
+
+* Add the identity of the user who invited to a space
+
+
+eXo Platform 6.2.0
+
+*************************
+
+** Bug
+
+* Fix the empty groups issue after making an upgrade from 5.3.5 to 6.0.3 or 6.0.4
+
+* Fix suggester issue when inviting newly created users
+
+* Fix users search issue in administration menu when email field is empty
+
+* Fix the issue of loading page when searching by synchronized user
+
+* Fix the PLF version exposure in RSS REST service
+
+* [SSO]Fix redirection URL for Connection invitation
+
+* Fix the access issue to public pages by anonymous users
+
+* Users management : Search users by email doesn't work correctly
+
+* Fix roles display issue in memberships drawer in Users management screen
+
+* Fix the login UI issue in mobile devices
+
+* Login's page initialURI param can lead to external address
+
+* Fix the style of mentioned username in email notification of activity with attached files
+
+* External label missing in some locations
+
+* [Mobile] Fix issue sign-in using SSO google / Microsoft 
+
+* [Mobile] Fix issue Only-office to visualize document in the preview
+
+* [Mobile] Fix redirection problem when clicking on a notification
+
+** Improvements
+
+* Add RTL capability in product
+
+* Upgrade Tomcat to the version 8.5.65
+
+* Add Support to Openid 
+
+* Add external mentions in people suggestor
+
+** Add a DLP node under the administration
+
+* Quarantine page UI
+
+* External users visibility in people directory and contact suggestions
+
+* Add autolink on user's profile fields
+
+* Update CKEditor version to 4.15.1
+
+* Update Elasticsearch to version 7
+
+* People & spaces connectors display in unified search for external and internal users
+
+* Make browser cache loads new resources from server instead of browser's local cache
+
+* Activate 2FA by default for administrators and dlp groups
+
+* Add  the "Last connection" Column in the users' management interface
+
+* Add the multi-selection & multi actions in the user management screen
+
+* Remove the possibility for admins to edit the information of LDAP/AD synced users
+
+* Implement and configure Malware detection Job
+
+* Improve the CSV users re-import operation by avoiding to erase passwords
+
+* Make possible to import users through CSV with their statuses enabled/disabled
+
+* Deactivate user with missing information in users management after AD synchronization
+
+* Synchronize user status in Active Directory
+
+* Update information of size and count in attachments upload input
+
+* Modify displaying attachments app alert messages
+
+* External label missing in some locations
+
+* Improve Disabled user detection from Active Directory
+
+* Implement attachments preview for activities
+
+* Add security check on attachment actions
+
+* Add activity for shared cloud files
+
+* Add an alert when closing attachment drawer while upload in progress
+
+* [Mobile] Implement new UX/UI of adding URL of eXo
+
+* [Mobile] Implement new UX/UI managing registred URL of eXo
+
+* [Mobile] Update native desgin
+
+* [Mobile] Upgrade Pods for compatibility iOS 12
+
+* [Mobile] Improve UX of users who have their password already memorized
+
+* [Mobile] Display avatar of eXo (digital workplace) on card of instance page
+
+* [Mobile] Display pop-up by clicking on delete icone on instance page
+
+* [Mobile] Add parameter user to connect via QR code on settings
+
+* [Mobile] Implement authentification via QR code
+
+* [Mobile] Implement new design of Onboarding
+
+* [Mobile] Display badge on application when we have unread notification
+
+* [Mobile] Improve navigation in the application after being logged in with SAML (Microsoft / Google)
+
+* [Mobile] Display error message when URL eXo isn't valid
+
+
+eXo Chat 3.2.0
+
+**************
+
+** Bug
+
+* Push notification message when mention in chat is empty
+
+* Delete the new (wrong) status displayed in users' availabilities on chat
+
+* Fix chat notification numbers issue on tabs
+
+* Fix the update issue of chat notification badge in all opened tabs
+
+** Improvements
+
+* Limit the number of users displayed in a big chat room
+
+* Improve chat performance when loading rooms
+
+
+eXo Analytics 1.1.0
+
+***********************
+
+** Bug
+
+* Cleanup existing unused operations in "Activities" report
+
+** Improvements
+
+* Add connected users chart
+
+* Add space analytics page
+
+* Add users analytics page
+
+* Add collect point for jitsi calls
+
+* Add collect point for chat discussions
+
+* Improve the main analytics page
+
+* Make possible to select a custom analytics period
+
+* Add collect points on user profile update (avatar, experience and contacts sections)
+
+* Add analytics template to allow creating new custom analytics reports
+
+* Add breadcrumb for analytics pages
+
+* Add the menu button in analytics pages with the tree menu for analytics sub pages
+
+* Add the custom period selector for all charts in the main page
+
+   
+
+eXo News 2.2.0
+
+**************
+
+** Bug
+
+* Fix the possibility to edit the activity description of a shared News
+
+* Fix avatar display issue in news application
+
+* Fix mention functioning in an article after publishing it
+
+* Fix the UI issue in "Latest news" widget in mobile devices 
+
+* News notifications have no title in Notifications Administration
+
+* Fix the bad display of article with a long summary
+
+* Fix issue of "Post" button disabled status after filling mandatory fields when switching from post to an article
+
+** Improvements
+
+* Change the display of the edit and share buttons from articles' details
+
+* Change the display of of the edit and share buttons from News application
+
+* Add the possibility to share a link activity
+
+* Improve the display of deleted activities page
+
+* Add the tag "News" in unified search and restyle the result card 
+
+* Add a warning about links in activities while sharing them
+
+* Add the tag "News" in unified search and restyle the result card 
+
+
+eXo Agenda 1.1.0
+
+******************
+
+** Bug
+
+* Fix the wrong popup title and message when answering to a recurrent event
+
+* Fix the wrong name of events with accents in notifications
+
+* [Agenda] Rework JPQL to be compliant with PostgreSQL
+
+** Improvement
+
+* Add date poll feature
+
+* API extension (experimental) for space event calls (for Agenda)
+
+* External users display on Agenda
+
+* Add break Text on Event Details fields 
+
+* Add onsite/email and push notification when participants reply to an event
+
+* Remote calendar (Google) - Add the event's source 
+
+* Align title and icon when agenda is empty in Snapshot page
+
+
+eXo notes 1.0.0
+
+*************************
+
+** Bug
+
+* Fix can’t access to note pages new UI after edit Space Name
+
+* Fix search issue of wiki pages under a renamed space
+
+** Improvements
+
+* Add the possibility to share a note (wiki) activity
+
+* Add notes portlet
+
+* Create Notes rest service 
+
+* Add Display notes first screen 
+
+* New notes app Add-Edit note
+
+* Manage Note Alert Messages
+
+* Improve Create and Edit page with new cancel button
+
+
+eXo Application center 2.2.0
+
+******************************
+
+** Improvement
+
+* Update apps icons in the app center
+
+
+eXo Task 3.2.0
+
+**************
+
+** Bug
+
+* Editing a project under a space removes it from the space
+
+* Editing managers of a project under a space removes the project
+
+* Fix the Empty counter box in tasks widget in Snapshot page
+
+* Fix delete comment on task issue
+
+* Fix the issue of add a new label into a task
+
+* Fix performance issue when accessing a project with many tasks
+
+* Fix Tasks widget issue in external users homepage
+
+** Improvements
+
+* Add Gantt view
+
+* Make tasks labels shared in projects
+
+* Add "external" label in task comments mentions for external users
+
+* Restrict mentionning and assigning to projects participants
+
+* Add clone action for a task
+
+* External users display on new task
+
+* Improve Ckeditor in Add Project drawer
+
+* Make the default column's title I18Ned
+
+* Save filters depending on views
+
+* Drag and drop column in board view
+
+* Make Projects tab as default one
+
+* Make Tasks display dynamic
+
+
+eXo Wallet 2.2.0
+
+******************
+
+** Improvement
+
+* Add redirection to wallet creation screen from the perk store
+
+* Wallet password complexity
+
+* Rework the UI of wallet creation screen
+
+* Manage all warning messages in product's preview drawer
+
+* Align the disabled purchase icon style for different cases 
+
+
+eXo Perk Store 2.2.0
+
+*************************
+
+** Bug
+
+* Fix the issue of image removal when canceling the action
+
+* Fix the issue of the suggester display when clicking outside 
+
+** Improvement
+
+* Add the filter dropdown and make the filters work correctly
+
+* Change the perkstore products listing into a Catalogue Tab
+
+* Improve the style of "Add product" form and make it into a drawer
+
+* Display the perk store catalogue even when wallet is not yet configured
+
+* Improve the filter field style on Catalogue tab of the perk store
+
+* Improve the "Edit product" process
+
+* Make orders listing into the tab "My orders"
+
+* Make the choices of the dropdown filter functional
+
+* Make the product's CARD clickable to open the purchase drawer
+
+* Add the purchase drawer
+
+* Add product's permalink
+
+* Improve the style of product and order CARDs
+
+* Enable the "Save" button into "Add product" drawer when mandatory fields are filled
+
+* Keep all the previously filled fields when editing a product
+
+* Make the image field mandatory
+
+* Add the filter field into "My orders" tab
+
+* Change the number of allowed images for better product's preview
+
+* Remove the useless redirection when creating/editing a product
+
+
+eXo Gamification 2.2.0
+
+***********************
+
+** Bug
+
+* Fix the wrong avatar display in achievement list
+
+
+eXo Kudos 2.2.0
+
+**************
+
+
+
